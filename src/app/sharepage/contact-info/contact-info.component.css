@@ -1,0 +1,15 @@
+.contact__content{
+  text-align: center;
+}
+
+.contact__content p:first-child {
+  font-size: 23px;
+  color: #4a4a4a;
+  letter-spacing: 1px;
+}
+
+.contact__content a {
+  font-size: 46px;
+  color: #fbbb61;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+<!-- Movie list -->
+<section class="movieList section">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-3"  *ngFor="let md of movieDetails">
+        <a [routerLink]="['/menu',md.id]">
+          <div class="movieList__item">
+            <img class="img-fluid" src="{{md.movieImg}}" alt="">
+            <div class="movieList__overlay"></div>
+          </div>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>

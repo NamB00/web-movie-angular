@@ -1,0 +1,19 @@
+<p></p>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-6" *ngIf="menuData">
+      <img src="{{menuData[0].movieImg}}" width="50%">
+      <h1 class="mt-2 ml-3">{{menuData[0].movieName}}</h1>
+      <p class="ml-3">{{menuData[0].movieRel}}</p>
+    </div>
+    <div class="col-xl-6 col-lg-6 mt-5">
+      <h1 class="details">Enter Your Details</h1>
+      <form>
+        <input type="text" class="form-control" placeholder="Enter your full name">
+        <input type="text" class="form-control" placeholder="Enter your mobile phone number">
+        <textarea class="form-control" placeholder="Enter your address"></textarea>
+        <button class="btn mb-5">place order</button>
+      </form>
+    </div>
+  </div>
+</div>
